@@ -1,0 +1,35 @@
+# ✨ Tool: Applicazione Effetti su Frame
+
+Questo è un tool desktop realizzato con **Python** e **CustomTkinter** per applicare effetti visivi a sequenze di immagini (frame) contenute in una cartella. Include una **preview in tempo reale** per vedere l’effetto delle modifiche prima di applicarle a tutti i file.
+
+---
+
+## Caratteristiche principali
+
+- Selezione della cartella contenente i frame da modificare.
+- Applicazione di diversi effetti:
+  - **Posterize** (riduzione livelli colore)
+  - **Bianco e Nero**
+  - **Blur**
+  - **Contrasto**
+  - **Luminosità**
+- Preview in tempo reale degli effetti selezionati su un’immagine.
+- Possibilità di **sovrascrivere** i file originali o salvare in una cartella separata.
+- Barra di progresso per monitorare l’avanzamento.
+- Elaborazione dei file in **thread separati** per non bloccare l’interfaccia.
+
+---
+
+## Requisiti
+
+- Python 3.10 o superiore
+- Librerie Python:
+  - `customtkinter`
+  - `Pillow`
+  - `tkinter` (incluso in Python standard)
+  - Altre librerie necessarie definite in `tool_logic.py`  
+
+Installazione librerie:
+
+```bash
+pip install customtkinter pillow

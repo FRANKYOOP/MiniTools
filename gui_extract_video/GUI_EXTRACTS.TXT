@@ -1,0 +1,32 @@
+# 🎞 Tool: Estrazione Frame da Video
+
+Questo è un tool desktop realizzato con **Python** e **CustomTkinter** per estrarre frame da uno o più video in una cartella di output, con controllo su **FPS**, **normalizzazione dei frame** e **risoluzione target**.
+
+---
+
+## Caratteristiche principali
+
+- Selezione multipla di video (`.mp4`, `.mov`, `.avi`, `.mkv`, `.flv`, `.wmv`).
+- Estrazione di frame a intervalli specifici impostando gli **FPS**.
+- Opzione per **normalizzare i frame**:
+  - `resize` → ridimensiona senza ritagliare
+  - `crop` → ritaglia centralmente
+  - `pad` → aggiunge bordi per adattare la risoluzione
+- Impostazione della **risoluzione target** per i frame estratti.
+- Barra di progresso per monitorare l’avanzamento.
+- Elaborazione in **thread separati** per mantenere l’interfaccia reattiva.
+
+---
+
+## Requisiti
+
+- Python 3.10 o superiore
+- Librerie Python:
+  - `customtkinter`
+  - `tkinter` (incluso in Python standard)
+  - Altre librerie necessarie definite in `tool_logic.py`  
+
+Installazione librerie:
+
+```bash
+pip install customtkinter

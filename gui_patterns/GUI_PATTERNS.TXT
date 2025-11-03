@@ -1,0 +1,38 @@
+# 🖼 Tool: Pattern & Texture
+
+Questo è un tool desktop realizzato con **Python** e **CustomTkinter** per applicare pattern e generare texture a immagini o sequenze di frame contenute in una cartella. Include una **preview in tempo reale** per visualizzare gli effetti prima di applicarli.
+
+---
+
+## Caratteristiche principali
+
+- Selezione della cartella contenente i frame da modificare.
+- Applicazione di diversi pattern:
+  - **Tiling** (ripetizione dell’immagine)
+  - **Mirror** (riflessione orizzontale)
+  - **Stripes** (rimescola strisce verticali)
+- Slider per controllare parametri come:
+  - Numero di ripetizioni per il tile
+  - Numero di strisce per lo stripe
+- Preview in tempo reale degli effetti selezionati su un’immagine.
+- Possibilità di generare:
+  - **Texture statica** (una sola immagine finale)
+  - **Sequenza pattern** (applicazione a tutti i frame nella cartella)
+- Barra di progresso per monitorare l’avanzamento.
+- Elaborazione in **thread separati** per non bloccare l’interfaccia.
+
+---
+
+## Requisiti
+
+- Python 3.10 o superiore
+- Librerie Python:
+  - `customtkinter`
+  - `Pillow`
+  - `tkinter` (incluso in Python standard)
+  - Altre librerie necessarie definite in `tool_logic.py`  
+
+Installazione librerie:
+
+```bash
+pip install customtkinter pillow

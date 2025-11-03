@@ -1,0 +1,30 @@
+# 🎥 Tool: Crea Video e Interfoliazione
+
+Questo è un tool desktop realizzato con **Python** e **CustomTkinter** per creare video a partire da più cartelle di immagini, con funzione di **interfoliazione dei frame** e controllo di parametri come FPS, risoluzione e formato di output.
+
+---
+
+## Caratteristiche principali
+
+- Selezione multipla di cartelle contenenti frame.
+- Interfoliazione automatica dei frame tra le cartelle.
+- Supporto per vari formati video: **MP4, AVI, MKV, MOV**.
+- Impostazione di **FPS** e **risoluzione** del video finale.
+- Barra di progresso per monitorare l’avanzamento dell’operazione.
+- Creazione del video in background tramite **threading**.
+
+---
+
+## Requisiti
+
+- Python 3.10 o superiore
+- Librerie Python:
+  - `customtkinter`
+  - `opencv-python`
+  - `tkinter` (incluso in Python standard)
+  - Eventuali altre librerie necessarie per `tool_logic.py`  
+
+Puoi installare le librerie con:
+
+```bash
+pip install customtkinter opencv-python

@@ -1,0 +1,33 @@
+# 💾 Tool: Rinomina & Converti Frame
+
+Questo è un tool desktop realizzato con **Python** e **CustomTkinter** per rinominare e convertire file immagine contenuti in una o più cartelle, utile per organizzare sequenze di frame.
+
+---
+
+## Caratteristiche principali
+
+- Selezione di una o più cartelle sorgente contenenti immagini.
+- Possibilità di ripulire la lista delle cartelle aggiunte.
+- Rinomina automatica dei file con **nome base personalizzato** e numerazione progressiva.
+- Conversione dei file in diversi formati immagine:
+  - PNG
+  - JPG
+  - BMP
+- Selezione della **cartella di output** per i file convertiti.
+- Barra di progresso per monitorare l’avanzamento dell’elaborazione.
+- Elaborazione in **thread separati** per non bloccare l’interfaccia.
+
+---
+
+## Requisiti
+
+- Python 3.10 o superiore
+- Librerie Python:
+  - `customtkinter`
+  - `tkinter` (incluso in Python standard)
+  - Altre librerie necessarie definite in `tool_logic.py`
+
+Installazione librerie:
+
+```bash
+pip install customtkinter
